@@ -1,5 +1,5 @@
 
-## List of Contributors
+## List of Contributors:
 
 Please add your name here. And mention your contribution as well!
 
