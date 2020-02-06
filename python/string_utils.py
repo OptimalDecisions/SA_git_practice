@@ -337,6 +337,8 @@ def is_uuid(string):
     """
     return bool(UUID_RE.search(str(string)))
 
+def add_nummbers(a,b):
+    return a + b
 
 def is_ip(string):
     """
