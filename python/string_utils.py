@@ -5,6 +5,7 @@ import re
 from uuid import uuid4
 import random
 import unicodedata
+import sqlalchemy
 
 # module settings
 __version__ = '0.6.0'
