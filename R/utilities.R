@@ -9,6 +9,7 @@
 #' @examples
 #' s <- "123   "
 #' edf:::edf.char.to.num(s)
+#' Bernard Lawes was here :)
 #' @keywords internal
 edf.char.to.num <- function(s) {
     as.numeric(gsub(" ", "", s, fixed = TRUE))

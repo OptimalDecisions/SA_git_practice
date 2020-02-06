@@ -5,6 +5,7 @@ import re
 from uuid import uuid4
 import random
 import unicodedata
+import sqlalchemy
 
 # module settings
 __version__ = '0.6.0'
@@ -336,6 +337,8 @@ def is_uuid(string):
     """
     return bool(UUID_RE.search(str(string)))
 
+def add_nummbers(a,b):
+    return a + b
 
 def is_ip(string):
     """
